@@ -22,7 +22,7 @@ def preprocess_image(img):
     return img_array
 
 # Load the model from the specified path
-model = tf.keras.models.load_model('C:/Users/amaan/Desktop/VSCode/Major II/ResNet50/resnet50_model.h5')
+model = tf.keras.models.load_model('resnet50_model.h5')
 
 # Streamlit code to upload and process the image
 st.title('Pneumonia Classifier')
