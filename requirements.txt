@@ -4,3 +4,4 @@ pandas
 matplotlib
 tensorflow
 opencv-python-headless
+h5py
